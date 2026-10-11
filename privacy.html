@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Hermes Mail Tool</title>
+<style>
+  body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+         max-width: 720px; margin: 3rem auto; padding: 0 1.5rem; line-height: 1.7; color: #222; }
+  h1 { font-size: 1.7rem; }
+  h2 { font-size: 1.12rem; margin-top: 1.8rem; }
+  code { background: #f4f4f4; padding: .1rem .3rem; border-radius: 3px; }
+  a { color: #0b57d0; }
+  footer { margin-top: 3rem; color: #888; font-size: .88rem; border-top: 1px solid #eee; padding-top: 1rem; }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p><strong>Hermes Mail Tool</strong> · Last updated: October 2026</p>
+
+  <h2>1. Who this covers</h2>
+  <p>
+    Hermes Mail Tool is a personal, non-commercial tool operated by a single individual
+    (the &ldquo;owner&rdquo;) on their own computer. It is not offered as a service to the
+    public and has no other users.
+  </p>
+
+  <h2>2. What data is accessed</h2>
+  <p>With the owner's explicit consent, the tool accesses the owner's own Gmail mailbox through
+     the Gmail API, limited to these scopes:</p>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/gmail.modify</code> — read messages and manage
+        labels (mark read/unread, archive, move to trash).</li>
+    <li><code>https://www.googleapis.com/auth/gmail.send</code> — send email on the owner's behalf.</li>
+  </ul>
+  <p>This includes message headers, message bodies, attachment names and labels belonging to the
+     owner's account only.</p>
+
+  <h2>3. How data is used</h2>
+  <p>
+    Data is used solely to display, search and organise the owner's own email and to send mail
+    the owner requests. No automated profiling, advertising, or analytics is performed.
+  </p>
+
+  <h2>4. How data is stored and protected</h2>
+  <p>
+    OAuth tokens are stored locally on the owner's computer in a file readable only by the
+    owner's user account (file mode <code>0600</code>). Message contents are processed in
+    memory and are not copied to any external server. The tool does not maintain its own
+    database of message content.
+  </p>
+
+  <h2>5. Sharing and disclosure</h2>
+  <p>
+    No data is sold, rented, traded, or shared with any third party. Data is never used to
+    train machine-learning models and is never transferred to advertisers or data brokers.
+    Google user data is not used for any purpose other than the ones disclosed above, in line
+    with Google's Limited Use requirements.
+  </p>
+
+  <h2>6. Retention and deletion</h2>
+  <p>
+    Because no external copy of mailbox data is kept, there is nothing to retain. The owner may
+    revoke access at any time at
+    <a href="https://myaccount.google.com/permissions">Google Account permissions</a>; deleting
+    the local token file immediately ends all access.
+  </p>
+
+  <h2>7. Contact</h2>
+  <p>Questions about this policy: chengkahou@gmail.com</p>
+
+  <footer>
+    This policy applies only to Hermes Mail Tool. It is hosted at the same domain as the
+    tool&rsquo;s homepage.
+  </footer>
+</body>
+</html>
